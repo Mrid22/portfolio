@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "../components/Header";
+impot Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Mridul Agarwal",
 };
@@ -16,7 +17,7 @@ export default function RootLayout({
         <header>
           <Header />
         </header>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
