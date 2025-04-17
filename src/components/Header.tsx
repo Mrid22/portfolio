@@ -9,7 +9,7 @@ import {
 } from "@/src/components/ui/navigation-menu";
 export default function Header() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="w-full z-50">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Projects</NavigationMenuTrigger>

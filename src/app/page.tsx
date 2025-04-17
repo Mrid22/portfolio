@@ -1,16 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Hero from "@/src/assets/hero.jpg";
 
 export default function App() {
   return (
     <>
       <section id="hero" className="absolute top-0 left-0 w-full h-full">
-        <Image
-          src="../assets/hero.jpg"
-          alt="Hero Image"
-          fill
-          className="object-cover"
-        />
+        <Image src={Hero} alt="Hero Image" fill className="object-cover" />
       </section>
     </>
   );
