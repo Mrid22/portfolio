@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ThemeProvider } from "../components/theme-provider";
 import Header from "../components/Header";
-impot Footer from "../components/Footer";
+import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Mridul Agarwal",
 };
@@ -12,12 +13,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <header>
-          <Header />
-        </header>
-        <main>{children}</main>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <header>
+            <Header />
+          </header>
+          <main>{children}</main>
+          <footer>
+            <Footer />
+          </footer>
+        </ThemeProvider>
       </body>
     </html>
   );
