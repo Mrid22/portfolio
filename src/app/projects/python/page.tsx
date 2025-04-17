@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Hero from "@/src/assets/hero.jpg";
 
-export default function App() {
+export default function Python() {
   return (
     <>
       <section
