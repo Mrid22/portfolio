@@ -9,10 +9,20 @@ import {
 } from "@/src/components/ui/navigation-menu";
 export default function Header() {
   return (
-    <NavigationMenu className="w-full z-50">
-      <NavigationMenuList>
+    <NavigationMenu className="!w-x1 z-50 p-0">
+      <NavigationMenuList className="bg-black/50">
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="bg-transparent">
+            Projects
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <NavigationMenuLink href="/projects/ui-design">
+              UI Design
+            </NavigationMenuLink>
+            <NavigationMenuLink href="/projects/python">
+              Python
+            </NavigationMenuLink>
+          </NavigationMenuContent>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

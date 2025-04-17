@@ -24,7 +24,7 @@ export default function RootLayout({
           <header>
             <Header />
           </header>
-          <main>{children}</main>
+          <main className="flex flex-col w-full h-full">{children}</main>
           <footer>
             <Footer />
           </footer>
