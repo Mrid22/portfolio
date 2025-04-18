@@ -10,8 +10,18 @@ export default function App() {
         <Image src={Hero} alt="Hero Image" fill className="top-0 left-0" />
       </section>
       <section id="projects" className="grid w-screen h-screen grid-cols-2">
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard
+          title="UI Design"
+          description="My UI Design projects"
+          img_src={Hero}
+          img_desc="picture for Ui design"
+        />
+        <ProjectCard
+          title="Python"
+          description="My Python projects"
+          img_src={Hero}
+          img_desc="picture for Python"
+        />
       </section>
     </>
   );
