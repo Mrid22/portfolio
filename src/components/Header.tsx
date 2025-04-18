@@ -19,6 +19,9 @@ export default function Header() {
             <NavigationMenuLink href="./projects/ui-design">
               UI Design
             </NavigationMenuLink>
+            <NavigationMenuLink href="./projects/web-development">
+              UI Design
+            </NavigationMenuLink>
             <NavigationMenuLink href="./projects/python">
               Python
             </NavigationMenuLink>
