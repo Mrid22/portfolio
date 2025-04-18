@@ -17,13 +17,13 @@ export default function Header() {
             Projects
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <NavigationMenuLink href="../app/projects/ui-design">
+            <NavigationMenuLink href="../projects/ui-design">
+              Web Development
+            </NavigationMenuLink>
+            <NavigationMenuLink href="../projects/web-development">
               UI Design
             </NavigationMenuLink>
-            <NavigationMenuLink href="../app/projects/web-development">
-              UI Design
-            </NavigationMenuLink>
-            <NavigationMenuLink href="../app/projects/python">
+            <NavigationMenuLink href="../projects/python">
               Python
             </NavigationMenuLink>
           </NavigationMenuContent>
