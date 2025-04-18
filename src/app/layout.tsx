@@ -21,13 +21,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header>
-            <Header />
-          </header>
-          <main>{children}</main>
-          <footer className="z-50">
-            <Footer />
-          </footer>
+          <div className="flex flex-col top-0 left-0 w-full h-full ">
+            <header>
+              <Header />
+            </header>
+            <main>{children}</main>
+            <footer className="z-50">
+              <Footer />
+            </footer>
+          </div>
         </ThemeProvider>
       </body>
     </html>
