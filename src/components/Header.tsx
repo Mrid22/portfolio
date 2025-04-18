@@ -7,6 +7,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/src/components/ui/navigation-menu";
+
 export default function Header() {
   return (
     <NavigationMenu className="!w-x1 z-50 p-0">
@@ -16,13 +17,13 @@ export default function Header() {
             Projects
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <NavigationMenuLink href="./projects/ui-design">
+            <NavigationMenuLink href="../app/projects/ui-design">
               UI Design
             </NavigationMenuLink>
-            <NavigationMenuLink href="./projects/web-development">
+            <NavigationMenuLink href="../app/projects/web-development">
               UI Design
             </NavigationMenuLink>
-            <NavigationMenuLink href="./projects/python">
+            <NavigationMenuLink href="../app/projects/python">
               Python
             </NavigationMenuLink>
           </NavigationMenuContent>
