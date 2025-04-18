@@ -11,7 +11,7 @@ export default function App() {
           src={Hero}
           alt="Hero Image"
           fill
-          className="relative top-0 left-0 object-cover"
+          className="relative top-0 left-0"
         />
       </section>
       <section id="projects" className="grid w-screen h-screen grid-cols-2">
