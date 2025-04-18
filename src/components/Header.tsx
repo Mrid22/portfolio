@@ -20,7 +20,7 @@ export default function Header() {
             <NavigationMenuLink href="/portfolio/projects/ui-design">
               Web Development
             </NavigationMenuLink>
-            <NavigationMenuLink href="/portfolio/projects/web-development">
+            <NavigationMenuLink href="/projects/web-development">
               UI Design
             </NavigationMenuLink>
             <NavigationMenuLink href="/portfolio/projects/python">
