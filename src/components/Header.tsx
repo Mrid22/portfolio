@@ -18,10 +18,10 @@ export default function Header() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <NavigationMenuLink href="/portfolio/projects/ui-design">
-              Web Development
+              UI Design
             </NavigationMenuLink>
             <NavigationMenuLink href="/projects/web-development">
-              UI Design
+              Web Development
             </NavigationMenuLink>
             <NavigationMenuLink href="/portfolio/projects/python">
               Python
