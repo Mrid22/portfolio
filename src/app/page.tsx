@@ -18,24 +18,28 @@ export default function App() {
           description="My UI Design projects"
           img_src={Hero}
           img_desc="picture for Ui design"
+          link="/portfolio/projects/ui-design"
         />
         <ProjectCard
           title="Python"
           description="My Python projects"
           img_src={Hero}
           img_desc="picture for Python"
+          link="/portfolio/projects/python"
         />
         <ProjectCard
           title="Web Development"
           description="My Web Development projects"
           img_src={Hero}
           img_desc="picture for Web Development"
+          link="/portfolio/projects/web-development"
         />
         <ProjectCard
           title="Nix OS"
           description="My Nix OS configuration"
           img_src={Hero}
           img_desc="picture for Nix  OS"
+          link="/portfolio/projects/nixos"
         />
       </section>
     </>

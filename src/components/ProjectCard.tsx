@@ -7,12 +7,16 @@ import {
   CardTitle,
 } from "./ui/card";
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
+import { Button } from "./ui/button";
+import { ArrowRight } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   img_src: string | StaticImageData;
   img_desc: string;
+  link: string;
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
@@ -26,7 +30,9 @@ export default function ProjectCard(props: ProjectCardProps) {
         <Image src={props.img_src} alt={props.img_desc}></Image>
       </CardContent>
       <CardFooter>
-        <button className="btn">View Project</button>
+        <Button asChild>
+          <Link href={props.link}>See More</Link> <ArrowRight />
+        </Button>
       </CardFooter>
     </Card>
   );
