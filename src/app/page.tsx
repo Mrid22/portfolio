@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <section></section>
-      <section id="projects" className="grid grid-cols-2">
+      <section id="projects" className="grid grid-cols-2 p-0">
         <ProjectCard
           title="UI Design"
           img_src={Hero}
