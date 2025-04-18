@@ -10,7 +10,7 @@ import {
 
 export default function Header() {
   return (
-    <NavigationMenu className="!w-screen z-50 p-0">
+    <NavigationMenu className="w-screen z-50 p-0">
       <NavigationMenuList className="bg-black/50">
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-transparent">
