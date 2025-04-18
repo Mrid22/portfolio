@@ -31,7 +31,9 @@ export default function ProjectCard(props: ProjectCardProps) {
       </CardContent>
       <CardFooter>
         <Button asChild>
-          <Link href={props.link}>See More</Link> <ArrowRight />
+          <>
+            <Link href={props.link}>See More</Link> <ArrowRight />
+          </>
         </Button>
       </CardFooter>
     </Card>
