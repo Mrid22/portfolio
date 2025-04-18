@@ -6,16 +6,25 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
+import Image from "next/image";
 
-export default function ProjectCard() {
+interface ProjectCardProps {
+  title: string;
+  description: string;
+  content: React.ReactNode;
+  img_src: string;
+  img_desc: string;
+}
+
+export default function ProjectCard(props: ProjectCardProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Project Title</CardTitle>
-        <CardDescription>Project Description</CardDescription>
+        <CardTitle>{props.title}</CardTitle>
+        <CardDescription>{props.description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <p>Project Content</p>
+        <Image src={props.img_src} alt={props.img_desc}></Image>
       </CardContent>
       <CardFooter>
         <button className="btn">View Project</button>
