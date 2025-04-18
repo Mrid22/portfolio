@@ -26,6 +26,9 @@ export default function Header() {
             <NavigationMenuLink href="/portfolio/projects/python">
               Python
             </NavigationMenuLink>
+            <NavigationMenuLink href="/portfolio/projects/nixos">
+              Nix OS
+            </NavigationMenuLink>
           </NavigationMenuContent>
         </NavigationMenuItem>
       </NavigationMenuList>
