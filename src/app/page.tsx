@@ -11,7 +11,7 @@ export default function App() {
           src={Hero}
           alt="Hero Image"
           fill
-          className="object-cover"
+          className="object-contain"
         ></Image>
       </section>
       <section
