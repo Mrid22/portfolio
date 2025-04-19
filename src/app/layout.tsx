@@ -21,7 +21,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex flex-col top-0 left-0 w-screen h-screen p-0">
+          <div className="flex flex-col top-0 left-0 w-screen h-screen p-5">
             <header>
               <Header />
             </header>
