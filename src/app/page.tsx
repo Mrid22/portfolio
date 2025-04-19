@@ -6,7 +6,7 @@ import Hero from "@/src/assets/hero.jpg";
 export default function App() {
   return (
     <>
-      <section id="hero" className="w-screen h-screen">
+      <section id="hero" className="w-screen h-screen box-border">
         <Image
           src={Hero}
           alt="Hero Image"
