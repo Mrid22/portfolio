@@ -13,7 +13,7 @@ export default function App() {
       </section>
       <section
         id="about"
-        className="relative w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
+        className="relative w-fit h-fit box-border px-2 grid grid-cols-2 gap-2"
       >
         <Button variant="outline" asChild>
           <Link href="/projects/ui-design">See See More</Link>
