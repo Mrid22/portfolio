@@ -11,7 +11,7 @@ export default function App() {
       </section>
       <section
         id="projects"
-        className="grid grid-cols-2 gap-1 p-0 w-screen h-screen"
+        className="grid grid-cols-2 gap-1 p-2 w-full h-full"
       >
         <ProjectCard
           title="UI Design"
@@ -23,9 +23,9 @@ export default function App() {
         <ProjectCard
           title="Web Development"
           img_src={Hero}
-          img_desc="Python Image"
-          description="My Python Projects"
-          link="/projects/python"
+          img_desc="WebDevelopment Image"
+          description="My Web Projects"
+          link="/projects/web-development"
         ></ProjectCard>
       </section>
     </>
