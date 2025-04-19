@@ -9,12 +9,6 @@ export default function App() {
       <section id="hero" className="w-screen h-screen box-border">
         <Image src={Hero} alt="Hero Image" fill className="object-fill"></Image>
       </section>
-      <section id="github_stats" className="justify-center content-center">
-        <iframe
-          src="https://github-readme-stats.vercel.app/api?username=Mrid22"
-          className="w-full h-fit"
-        ></iframe>
-      </section>
       <section
         id="projects"
         className="relative w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
