@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import ProjectCard from "../components/ProjectCard";
 import Hero from "@/src/assets/hero.jpg";
+import { Button } from "../components/ui/button";
+import { Link } from "lucide-react";
 
 export default function App() {
   return (
@@ -20,6 +22,9 @@ export default function App() {
           img_desc="UI design img"
           link="/projects/ui-design"
         ></ProjectCard>
+        <Button variant="outline" asChild>
+          <Link href="/projects/ui-design">See See More</Link>
+        </Button>
         <ProjectCard
           title="Web Development"
           description="My Web Development Projects"
