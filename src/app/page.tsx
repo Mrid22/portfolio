@@ -35,6 +35,13 @@ export default function App() {
           img_desc="Python img"
           link="/projects/python"
         ></ProjectCard>
+        <ProjectCard
+          title="Android"
+          description="My Android Apps"
+          img_src={Hero}
+          img_desc="Android img"
+          link="/projects/android"
+        ></ProjectCard>
       </section>
     </>
   );
