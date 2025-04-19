@@ -25,7 +25,7 @@ export default function RootLayout({
             <header>
               <Header />
             </header>
-            <main>{children}</main>
+            <main className="relative">{children}</main>
             <footer className="z-50">
               <Footer />
             </footer>
