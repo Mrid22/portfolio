@@ -12,7 +12,7 @@ export default function App() {
       <section id="github_stats">
         <iframe
           src="https://github-readme-stats.vercel.app/api?username=Mrid22"
-          className="w-screen h-2"
+          className="w-screen h-auto"
         ></iframe>
       </section>
       <section
