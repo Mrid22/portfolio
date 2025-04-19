@@ -10,7 +10,10 @@ export default function App() {
         <Image src={Hero} alt="Hero Image" fill className="object-fill"></Image>
       </section>
       <section id="github_stats">
-        <iframe src="https://github-readme-stats.vercel.app/api?username=Mrid22"></iframe>
+        <iframe
+          src="https://github-readme-stats.vercel.app/api?username=Mrid22"
+          className="w-screen h-2"
+        ></iframe>
       </section>
       <section
         id="projects"
