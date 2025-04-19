@@ -12,7 +12,7 @@ export default function App() {
       <section id="github_stats" className="justify-center content-center">
         <iframe
           src="https://github-readme-stats.vercel.app/api?username=Mrid22"
-          className="w-fit h-fit"
+          className="w-full h-fit"
         ></iframe>
       </section>
       <section
