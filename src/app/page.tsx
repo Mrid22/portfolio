@@ -7,7 +7,12 @@ export default function App() {
   return (
     <>
       <section id="hero" className="w-screen h-screen">
-        <Image src={Hero} alt="Hero Image" fill></Image>
+        <Image
+          src={Hero}
+          alt="Hero Image"
+          fill
+          className="object-cover"
+        ></Image>
       </section>
       <section
         id="projects"
