@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ProjectCard from "../components/ProjectCard";
 import Hero from "@/src/assets/hero.jpg";
+import Footer from "../components/Footer";
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
           link="/projects/python"
         ></ProjectCard>
       </section>
+      <Footer></Footer>
     </>
   );
 }
