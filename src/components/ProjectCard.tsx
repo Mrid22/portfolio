@@ -30,7 +30,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         <Image src={props.img_src} alt={props.img_desc}></Image>
       </CardContent>
       <CardFooter>
-        <Button variant="outline" asChild>
+        <Button variant="link" asChild>
           <>
             <Link href={props.link}>See More</Link> <ArrowRight />
           </>
