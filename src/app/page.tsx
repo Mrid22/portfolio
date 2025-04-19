@@ -12,7 +12,7 @@ export default function App() {
       </section>
       <section
         id="projects"
-        className="w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
+        className="relative w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
       >
         <ProjectCard
           title="UI Design"
@@ -36,7 +36,6 @@ export default function App() {
           link="/projects/python"
         ></ProjectCard>
       </section>
-      <Footer></Footer>
     </>
   );
 }
