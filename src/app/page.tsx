@@ -27,6 +27,13 @@ export default function App() {
           img_desc="Web Dev img"
           link="/projects/web-development"
         ></ProjectCard>
+        <ProjectCard
+          title="Python"
+          description="My Python Projects"
+          img_src={Hero}
+          img_desc="Python img"
+          link="/projects/python"
+        ></ProjectCard>
       </section>
     </>
   );
