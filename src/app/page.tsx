@@ -12,6 +12,14 @@ export default function App() {
         <Image src={Hero} alt="Hero Image" fill className="object-fill"></Image>
       </section>
       <section
+        id="about"
+        className="relative w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
+      >
+        <Button variant="outline" asChild>
+          <Link href="/projects/ui-design">See See More</Link>
+        </Button>
+      </section>
+      <section
         id="projects"
         className="relative w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
       >
@@ -22,9 +30,6 @@ export default function App() {
           img_desc="UI design img"
           link="/projects/ui-design"
         ></ProjectCard>
-        <Button variant="outline" asChild>
-          <Link href="/projects/ui-design">See See More</Link>
-        </Button>
         <ProjectCard
           title="Web Development"
           description="My Web Development Projects"
