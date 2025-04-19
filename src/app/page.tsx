@@ -11,7 +11,7 @@ export default function App() {
       </section>
       <section
         id="projects"
-        className="w-screen h-screen box-border p-2 grid grid-cols-2"
+        className="w-screen h-screen box-border px-2 grid grid-cols-2 gap-2"
       >
         <ProjectCard
           title="UI Design"
