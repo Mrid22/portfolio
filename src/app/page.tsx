@@ -9,6 +9,15 @@ export default function App() {
       <section id="hero" className="w-screen h-screen">
         <Image src={Hero} alt="Hero Image" fill></Image>
       </section>
+      <section id="projects" className="w-screen h-screen">
+        <ProjectCard
+          img_src={Hero}
+          img_desc="UI design img"
+          title="UI Design"
+          description="My UI Design Projects"
+          link="/projects/ui-design"
+        ></ProjectCard>
+      </section>
     </>
   );
 }
