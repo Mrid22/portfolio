@@ -9,7 +9,7 @@ export default function App() {
       <section id="hero" className="w-screen h-screen">
         <Image src={Hero} alt="Hero Image" fill></Image>
       </section>
-      <section id="projects" className="w-screen h-screen">
+      <section id="projects" className="w-screen h-screen p-1">
         <ProjectCard
           img_src={Hero}
           img_desc="UI design img"
