@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "../components/theme-provider";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Mridul Agarwal",
 };
@@ -26,9 +25,6 @@ export default function RootLayout({
               <Header />
             </header>
             <main>{children}</main>
-            <footer className="z-50">
-              <Footer />
-            </footer>
           </div>
         </ThemeProvider>
       </body>
