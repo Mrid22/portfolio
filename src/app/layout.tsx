@@ -21,11 +21,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex flex-col top-0 left-0 w-screen h-screen p-5">
+          <div className="flex flex-col top-0 left-0 w-screen h-screen p-0">
             <header>
               <Header />
             </header>
-            <main>{children}</main>
+            <main className="p-5">{children}</main>
             <footer className="z-50">
               <Footer />
             </footer>
