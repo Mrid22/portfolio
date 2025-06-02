@@ -3,8 +3,7 @@ import { ThemeProvider } from "../components/theme-provider";
 import type { Metadata } from "next";
 import Menu from "../components/Menu";
 export const metadata: Metadata = {
-  title: "Next.js on GitHub Pages",
-  description: "Deploy your static Next.js site to GitHub Pages.",
+  title: "Mridul Agarwal",
 };
 
 export default function RootLayout({
