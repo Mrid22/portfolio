@@ -2,6 +2,7 @@ import "@/globals.css";
 import { ThemeProvider } from "../components/theme-provider";
 import type { Metadata } from "next";
 import Menu from "../components/Menu";
+import Image from "next/image";
 export const metadata: Metadata = {
   title: "Mridul Agarwal",
 };
@@ -20,6 +21,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Image src={"images/wallpaper.jpg"} alt="wallpaper" fill></Image>
           <Menu />
           {children}
         </ThemeProvider>
