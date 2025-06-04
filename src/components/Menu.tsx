@@ -11,6 +11,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
+  CommandShortcut,
 } from "./ui/command";
 
 export default function Menu() {
@@ -52,6 +53,16 @@ export default function Menu() {
               }}
             >
               <span>Nix OS</span>
+            </CommandItem>
+          </CommandGroup>
+          <CommandGroup heading="Tests">
+            <CommandItem>
+              <span>PSAT 10</span>
+              <CommandShortcut>1120</CommandShortcut>
+            </CommandItem>
+            <CommandItem>
+              <span>PSAT 9</span>
+              <CommandShortcut>100</CommandShortcut>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
