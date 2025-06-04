@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { useRouter } from "next/navigation";
 
 import {
   CommandDialog,
@@ -14,7 +15,7 @@ import {
 
 export default function Menu() {
   const [open, setOpen] = React.useState(false);
-
+  const router = useRouter();
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.key === "r" && e.altKey) {
@@ -27,21 +28,36 @@ export default function Menu() {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
+  function navigateTo(page: string) {
+    router.push(page);
+    setOpen(!open);
+  }
   return (
-    <>
+    <div>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Projects">
-            <CommandItem>
-              <span>Calendar</span>
+            <CommandItem
+              onSelect={() => {
+                navigateTo("/projects/ui-design");
+              }}
+            >
+              <span>UI Design</span>
+            </CommandItem>
+            <CommandItem
+              onSelect={() => {
+                navigateTo("/projects/nixos");
+              }}
+            >
+              <span>Nix OS</span>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
-          <CommandGroup heading="Settings"></CommandGroup>
+          <CommandGroup heading="About Me"></CommandGroup>
         </CommandList>
       </CommandDialog>
-    </>
+    </div>
   );
 }
