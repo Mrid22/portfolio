@@ -15,10 +15,10 @@ export default function Intro() {
     <Dialog defaultOpen>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>
+          <DialogTitle className="text-white">
             Hi I'm Mridul Agarwal, welcome to my computer!
           </DialogTitle>
-          <DialogDescription>
+          <DialogDescription className="text-white">
             or atleast a portfolio inspired by it, you can (re)open the menu by
             pressing <strong>Alt+R</strong>
           </DialogDescription>
