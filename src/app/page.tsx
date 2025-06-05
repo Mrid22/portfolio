@@ -1,3 +1,8 @@
+import Intro from "../components/Intro";
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Intro />
+    </main>
+  );
 }
