@@ -9,8 +9,7 @@ import {
 } from "@/src/components/ui/table";
 export default function College() {
   return (
-    <Table>
-      <TableCaption>A list of your recent invoices.</TableCaption>
+    <Table className="bg-black">
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">College</TableHead>
