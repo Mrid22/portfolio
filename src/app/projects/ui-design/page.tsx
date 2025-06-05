@@ -2,8 +2,9 @@ export default function UIDesign() {
   return (
     <div className="flex flex-col gap-1">
       <iframe
-        className="w-full h-full"
-        src="https://embed.figma.com/design/IgLxlXTgFN88hrXOBfhTF6/Portfolio-Wireframes?node-id=257-1119&amp;embed-host=share"
+        width="800"
+        height="450"
+        src="https://embed.figma.com/proto/IgLxlXTgFN88hrXOBfhTF6/Portfolio-Wireframes?node-id=257-1504&amp;p=f&amp;scaling=scale-down&amp;content-scaling=fixed&amp;page-id=257%3A1119&amp;starting-point-node-id=257%3A1504&amp;embed-host=share"
         allowFullScreen
       ></iframe>
       <iframe
