@@ -11,5 +11,13 @@ import {
 import * as React from "react";
 export default function Intro() {
   const [open, setOpen] = React.useState(false);
-  return <Dialog open={open} onOpenChange={setOpen} modal={true}></Dialog>;
+  return (
+    <Dialog open={open} onOpenChange={setOpen} modal={true}>
+      <DialogTitle>Hi, I'm Mridul Agarwal, welcome to my computer</DialogTitle>
+      <DialogContent>
+        Or at least a portfolio inspired by it press <strong>Alt+R</strong> to
+        open the menu, and <strong>Enter</strong>to dismiss this. Have fun!!
+      </DialogContent>
+    </Dialog>
+  );
 }
