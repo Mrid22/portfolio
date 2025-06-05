@@ -15,10 +15,12 @@ export default function Intro() {
     <Dialog defaultOpen>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Are you absolutely sure?</DialogTitle>
+          <DialogTitle>
+            Hi I'm Mridul Agarwal, welcome to my computer!
+          </DialogTitle>
           <DialogDescription>
-            This action cannot be undone. This will permanently delete your
-            account and remove your data from our servers.
+            or atleast a portfolio inspired by it, you can (re)open the menu by
+            pressing <strong>Alt+R</strong>
           </DialogDescription>
         </DialogHeader>
       </DialogContent>
