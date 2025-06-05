@@ -1,3 +1,4 @@
+import * as React from "react";
 import {
   Dialog,
   DialogClose,
@@ -10,8 +11,9 @@ import {
 } from "./ui/dialog";
 
 export default function Intro() {
+  const [open, changeOpen] = React.useState(true);
   return (
-    <Dialog>
+    <Dialog defaultOpen>
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Are you absolutely sure?</DialogTitle>
