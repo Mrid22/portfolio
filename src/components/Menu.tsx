@@ -64,7 +64,7 @@ export default function Menu() {
                 navigateTo("/projects/yearbook");
               }}
             >
-              <span>Yearbook</span>
+              <span>Yearbook (WIP) </span>
               <ArrowRightIcon />
               <CommandShortcut>All of my Yearbook Work</CommandShortcut>
             </CommandItem>
