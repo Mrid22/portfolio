@@ -13,6 +13,7 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "./ui/command";
+import { ArrowRightIcon } from "lucide-react";
 
 export default function Menu() {
   const [open, setOpen] = React.useState(false);
@@ -46,6 +47,7 @@ export default function Menu() {
               }}
             >
               <span>UI Design</span>
+              <ArrowRightIcon />
             </CommandItem>
             <CommandItem
               onSelect={() => {
@@ -53,6 +55,7 @@ export default function Menu() {
               }}
             >
               <span>Nix OS</span>
+              <ArrowRightIcon />
             </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Tests">
@@ -63,6 +66,16 @@ export default function Menu() {
             <CommandItem>
               <span>PSAT 9</span>
               <CommandShortcut>100</CommandShortcut>
+            </CommandItem>
+          </CommandGroup>
+          <CommandGroup heading="GPa's">
+            <CommandItem>
+              <span>Grade 9</span>
+              <CommandShortcut>3.8</CommandShortcut>
+            </CommandItem>
+            <CommandItem>
+              <span>Grade 10</span>
+              <CommandShortcut>3.8</CommandShortcut>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
