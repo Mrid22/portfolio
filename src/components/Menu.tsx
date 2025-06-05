@@ -16,7 +16,7 @@ import {
 import { ArrowRightIcon } from "lucide-react";
 
 export default function Menu() {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
   const router = useRouter();
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
