@@ -99,6 +99,8 @@ export default function Menu() {
               Awards
             </CommandItem>
           </CommandGroup>
+          <CommandGroup heading="Universities Considering"></CommandGroup>
+          <CommandGroup heading="Jobs Considering"></CommandGroup>
         </CommandList>
       </CommandDialog>
     </div>
