@@ -23,7 +23,7 @@ export default function RootLayout({
         >
           <Header></Header>
           <Image
-            src={"/images/wallpaper.jpg"}
+            src={"/portfolio/images/wallpaper.jpg"}
             alt="wallpaper"
             fill
             className="z-0"
