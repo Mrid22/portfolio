@@ -10,9 +10,9 @@ import {
 } from "./ui/dialog";
 import * as React from "react";
 export default function Intro() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
   return (
-    <Dialog open={open} onOpenChange={setOpen} modal={true}>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTitle>Hi, I'm Mridul Agarwal, welcome to my computer</DialogTitle>
       <DialogContent>
         Or at least a portfolio inspired by it press <strong>Alt+R</strong> to
