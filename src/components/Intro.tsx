@@ -10,9 +10,9 @@ import {
 } from "./ui/dialog";
 import * as React from "react";
 export default function Intro() {
+  const [open, setOpen] = React.useState(true);
   return (
-    <Dialog>
-      <DialogTrigger>Open</DialogTrigger>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Are you absolutely sure?</DialogTitle>
