@@ -10,13 +10,17 @@ import {
 } from "./ui/dialog";
 import * as React from "react";
 export default function Intro() {
-  const [open, setOpen] = React.useState(true);
   return (
-    <Dialog open={open} onOpenChange={setOpen}>
-      <DialogTitle>Hi, I'm Mridul Agarwal, welcome to my computer</DialogTitle>
+    <Dialog>
+      <DialogTrigger>Open</DialogTrigger>
       <DialogContent>
-        Or at least a portfolio inspired by it press <strong>Alt+R</strong> to
-        open the menu, and <strong>Enter</strong>to dismiss this. Have fun!!
+        <DialogHeader>
+          <DialogTitle>Are you absolutely sure?</DialogTitle>
+          <DialogDescription>
+            This action cannot be undone. This will permanently delete your
+            account and remove your data from our servers.
+          </DialogDescription>
+        </DialogHeader>
       </DialogContent>
     </Dialog>
   );
