@@ -48,6 +48,7 @@ export default function Menu() {
             >
               <span>UI Design</span>
               <ArrowRightIcon />
+              <CommandShortcut> My Ui Design Projects</CommandShortcut>
             </CommandItem>
             <CommandItem
               onSelect={() => {
@@ -56,6 +57,16 @@ export default function Menu() {
             >
               <span>Nix OS</span>
               <ArrowRightIcon />
+              <CommandShortcut> My Nix OS PC Configuration</CommandShortcut>
+            </CommandItem>
+            <CommandItem
+              onSelect={() => {
+                navigateTo("/projects/yearbook");
+              }}
+            >
+              <span>Yearbook</span>
+              <ArrowRightIcon />
+              <CommandShortcut>All of my Yearbook Work</CommandShortcut>
             </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Tests">
@@ -79,7 +90,15 @@ export default function Menu() {
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
-          <CommandGroup heading="About Me"></CommandGroup>
+          <CommandGroup heading="About Me">
+            <CommandItem
+              onSelect={() => {
+                navigateTo("/about/awards");
+              }}
+            >
+              Awards
+            </CommandItem>
+          </CommandGroup>
         </CommandList>
       </CommandDialog>
     </div>
