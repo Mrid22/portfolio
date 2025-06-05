@@ -11,7 +11,6 @@ import {
 } from "./ui/dialog";
 
 export default function Intro() {
-  const [open, changeOpen] = React.useState(true);
   return (
     <Dialog defaultOpen>
       <DialogContent>
