@@ -1,8 +1,8 @@
 import {
   Collapsible,
-  CollapsibleContent,
   CollapsibleTrigger,
-} from "@radix-ui/react-collapsible";
+  CollapsibleContent,
+} from "@/src/components/ui/collapsible";
 export default function Yearbook() {
   <div className="flex flex-col">
     <Collapsible>
