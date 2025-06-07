@@ -1,13 +1,10 @@
 import * as React from "react";
 import {
   Dialog,
-  DialogClose,
   DialogTitle,
   DialogDescription,
   DialogContent,
-  DialogFooter,
   DialogHeader,
-  DialogTrigger,
 } from "./ui/dialog";
 
 export default function Intro() {

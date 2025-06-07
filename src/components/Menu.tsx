@@ -98,9 +98,14 @@ export default function Menu() {
             >
               Awards
             </CommandItem>
+            <CommandItem
+              onSelect={() => {
+                navigateTo("/future/college");
+              }}
+            >
+              Colleges I'm Considering
+            </CommandItem>
           </CommandGroup>
-          <CommandGroup heading="Universities Considering"></CommandGroup>
-          <CommandGroup heading="Jobs Considering"></CommandGroup>
         </CommandList>
       </CommandDialog>
     </div>

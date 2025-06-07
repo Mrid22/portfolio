@@ -28,8 +28,20 @@ export default function College() {
             </a>
           </TableCell>
           <TableCell className="text-right">
-            € 17.310 (subject to change, upper end)
+            € 17,310 (subject to change, upper end)
           </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell className="font-medium">
+            International University of Applied Sciences
+          </TableCell>
+          <TableCell>Germany</TableCell>
+          <TableCell>
+            <a href="https://www.iu.org/bachelors/computer-science/on-campus/">
+              Bsc Computer Science
+            </a>
+          </TableCell>
+          <TableCell className="text-right">€ 378,31</TableCell>
         </TableRow>
       </TableBody>
     </Table>
