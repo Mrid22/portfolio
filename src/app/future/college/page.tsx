@@ -43,6 +43,40 @@ export default function College() {
           </TableCell>
           <TableCell className="text-right">€ 378,31</TableCell>
         </TableRow>
+        <TableRow>
+          <TableCell className="font-medium">Noroff</TableCell>
+          <TableCell>Norway</TableCell>
+          <TableCell>
+            <a href="https://www.noroff.no/en/studies/vocational-school/front-end-development">
+              Professional Degree in Front-End Development
+            </a>
+          </TableCell>
+          <TableCell className="text-right">
+            € 5382.44 <strong>per semester</strong>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell className="font-medium">Amsterdam Tech</TableCell>
+          <TableCell>Netherlands</TableCell>
+          <TableCell>
+            <a href="https://amsterdam.tech/software-engineering/">
+              BSc Science In Software Engineering
+            </a>
+          </TableCell>
+          <TableCell className="text-right">€ 2900</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell className="font-medium">Gisma University</TableCell>
+          <TableCell>Germany</TableCell>
+          <TableCell>
+            <a href="https://amsterdam.tech/software-engineering/">
+              BSc Computer Science
+            </a>
+          </TableCell>
+          <TableCell className="text-right">
+            € 13125 ( upper end, non eu viza)
+          </TableCell>
+        </TableRow>
       </TableBody>
     </Table>
   );
